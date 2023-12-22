@@ -3,5 +3,7 @@
 /vendor
 .DS_Store
 
-*.sql.gz
 *.sql
+*.sql.gz
+*.sql.gzip
+*.sql.zip
