@@ -1,0 +1,25 @@
+{# .twig mag je weg laten als het een twig bestand is#}
+{% extends "_layout" %}
+
+
+{% block content %}   
+  <section class="news-section">
+  {% set entries = craft.entries().section('news').limit(3) %}
+
+  {% for entry in entries %}
+      <article>
+        <picture>
+          <source media="(max-width:959px)" srcset="{{entry.bannerImage.one().url('bannerImage')}}">
+          <source media="(min-width:960px)" srcset="{{entry.bannerImage.one().url('thumbnailImage')}}">
+          <img src="{{entry.bannerImage.one().url('bannerImage')}}" alt="">
+        </picture>
+          <div>
+            <h2><a href="{{entry.url}}">{{entry.title}}</a></h2>
+            <p>{{entry.introText}}</p>
+            <a href="{{entry.url}}">read more</a>
+          </div>
+      </article>
+  {% endfor %}
+      <a class="button btn-more" href="/news">More News</a>
+  </section>
+{% endblock %}   

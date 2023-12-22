@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: storeCategories
+name: 'Store Categories'
+propagationMethod: all
+siteSettings:
+  7bfc15e2-be19-4fa8-82e4-3b95a69c0ca2: # craft-news-b
+    enabledByDefault: true
+    hasUrls: true
+    template: store-categories/_entry
+    uriFormat: 'store-categories/{slug}'
+structure:
+  maxLevels: null
+  uid: a6dfce31-db4f-4b21-a37b-6bdb588dd2ef
+type: structure

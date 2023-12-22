@@ -1,0 +1,82 @@
+fieldLayouts:
+  3ba27da4-85b8-451b-938b-8ac6d745c853:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 7827a272-f1f4-4428-b3ab-1dfc2dd5783f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 92bcb812-79da-4e26-ba44-aa701882e7d5 # intro text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9c879828-7d4f-4b15-88d2-579f6e9f9077
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 81569990-35fa-450b-add2-9c5458e5bc1f # full text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6503a298-fe18-4dd8-a924-74a9ca2726a8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d33e3282-e8e3-4785-8750-9972e9fd7b26 # banner image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5ca974e4-9878-445f-bd2a-3e2a1c0026ef
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 628f555d-e531-46b4-94ca-b521a9c1314d
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: df39c2d1-19d6-4ad5-9ab7-64e3699499df # news
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

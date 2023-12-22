@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: aboutUs
+name: 'about us'
+propagationMethod: all
+siteSettings:
+  7bfc15e2-be19-4fa8-82e4-3b95a69c0ca2: # craft-news-b
+    enabledByDefault: true
+    hasUrls: true
+    template: _about.twig
+    uriFormat: about-us
+type: single

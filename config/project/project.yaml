@@ -1,0 +1,66 @@
+dateModified: 1703266339
+email:
+  fromEmail: admin@test.be
+  fromName: craft-news-b
+  replyToEmail: null
+  template: null
+  transportSettings:
+    command: '/usr/sbin/sendmail -bs'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  assets:
+    hasUrls: true
+    name: Assets
+    settings:
+      path: '@webroot'
+    type: craft\fs\Local
+    url: '@web'
+meta:
+  __names__:
+    1ceba4de-d5a6-48d1-a45a-47306f11f334: header # header
+    2a21fb6e-a495-410b-8261-6d150d5315e1: craft-news-b # craft-news-b
+    7bfc15e2-be19-4fa8-82e4-3b95a69c0ca2: craft-news-b # craft-news-b
+    7fa259bb-54fd-4b71-91a7-968fea15e339: Default # Default
+    9b579256-eda1-4450-9d3d-ec81179394df: 'header image' # header image
+    9dbd0d22-26ff-460e-ae13-274b92cbb1d4: 'rich text' # rich text
+    9edd24c8-a32b-433b-9a92-5128a3e552c4: 'store URL' # store URL
+    047ae408-47f8-4951-b9cc-ea2f37159a64: footer # footer
+    92bcb812-79da-4e26-ba44-aa701882e7d5: 'intro text' # intro text
+    390b5327-d28d-48d7-9d1b-6f9c439ccdc8: 'banner image' # banner image
+    402b962c-c56f-43de-8eac-07a8ca64059f: 'Store Categories' # Store Categories
+    715a9205-2491-4081-b848-c917ae30b008: 'Store categories' # Store categories
+    959b821e-3bd5-45fe-89ee-cf2b0b41d167: Default # Default
+    7254300f-0aaa-4879-a811-52b72e52294b: header # header
+    55989977-cd84-47ac-8eeb-078e63e5ebb2: 'about us' # about us
+    81569990-35fa-450b-add2-9c5458e5bc1f: 'full text' # full text
+    a3efb0eb-b60b-4a62-926c-06f5ffe19142: footer # footer
+    a7fc46ca-c9ec-4dcc-94ca-03db1c0c35a0: Default # Default
+    b0880cae-5647-4a0e-b140-3103614225ad: plugins # plugins
+    b3fbd5e2-7e89-4db6-9676-595ecea60a9c: rating # rating
+    b9114276-23b8-400d-92dc-33727c2e057a: 'thumbnail image' # thumbnail image
+    bed4307a-1575-4687-9512-592539923a73: 'news assets' # news assets
+    c97214b7-85d5-47b8-a947-5b4856161a02: Common # Common
+    d33e3282-e8e3-4785-8750-9972e9fd7b26: 'banner image' # banner image
+    df39c2d1-19d6-4ad5-9ab7-64e3699499df: news # news
+    df9128c2-6a8b-4d5e-9c1d-3d35b7d485fa: 'about us' # about us
+plugins:
+  abm-tinymce:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: craft-news-b
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

@@ -1,0 +1,14 @@
+columnSuffix: pjqhytkb
+contentColumnType: string(255)
+fieldGroup: c97214b7-85d5-47b8-a947-5b4856161a02 # Common
+handle: storeUrl
+instructions: null
+name: 'store URL'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

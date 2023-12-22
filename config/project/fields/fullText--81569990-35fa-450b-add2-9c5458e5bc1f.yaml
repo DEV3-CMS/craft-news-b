@@ -1,0 +1,19 @@
+columnSuffix: dgzjpwhe
+contentColumnType: text
+fieldGroup: c97214b7-85d5-47b8-a947-5b4856161a02 # Common
+handle: fullText
+instructions: null
+name: 'full text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

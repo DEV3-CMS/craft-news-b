@@ -1,0 +1,9 @@
+{% extends "_layout" %}
+
+{% block content %}
+    <section class="article-details">
+        <img src="{{entry.bannerImage.one().url('headerImage')}}" alt="">
+        <h2>{{entry.title}}</h2>
+        <p>{{entry.fullText}}</p>
+    </section>
+{% endblock %}
